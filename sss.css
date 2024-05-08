@@ -1,0 +1,39 @@
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 3rem;
+}
+
+form {
+  width: 50%;
+  margin: 3rem auto;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+input[type="file"] {
+  margin-top: 1rem;
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  background-color: #008CBA;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  padding: 0.7rem 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 1.5rem;
+}
+
+button[type="submit"]:hover {
+  background-color: #005f6b;
+}
